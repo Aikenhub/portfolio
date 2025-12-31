@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anselm | Emerging Tech Professional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">ANSELM</div>
+            <ul>
+                <li><button id="theme-toggle" class="theme-btn">☀️ Toggle Mode</button></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1 id="typewriter"></h1> <p>Building secure solutions for a global digital landscape.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="card about-card">
+            <p>
+                I am an <strong>Emerging Tech Professional</strong> focused on Cloud Infrastructure and Security Operations. 
+                Currently preparing for the <strong>Microsoft Azure (AZ-900)</strong> certification, I build practical 
+                solutions like <strong>Kaptia</strong>. I am ready to contribute to global teams in remote-friendly, 
+                entry-level Cloud or Security roles.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>Kaptia</h3>
+                <p>Security guard management app built with HTML, CSS, and JS.</p>
+                <a href="https://aikenhub.github.io/Kaptia/" target="_blank" class="btn">Live App</a>
+            </div>
+            <div class="card">
+                <h3>Technical Lab</h3>
+                <p>Cloud-based laboratory work and technical exercises.</p>
+                <a href="https://github.com/Aikenhub/Cloud-Security-Hardening-Lab" target="_blank" class="btn">View Lab</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-card">
+            <p>Available for Worldwide & Remote Opportunities</p>
+            <div class="email-display" onclick="copyEmail()">
+                <span class="email-label">CLICK TO COPY EMAIL:</span>
+                <span id="myEmail" class="email-address">anselmikenna4us@gmail.com</span>
+                <span id="copyStatus">Copied!</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Anselm. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
